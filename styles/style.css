@@ -21,12 +21,26 @@ body {
     padding: 20px 30px;
     border-radius: 3rem;
     border: 0;
+    margin: 20px 0;
     color: #FFF;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+}
+
+.light-gray-text {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.common-text-effect {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 /* This is nav section styles  */
@@ -118,12 +132,9 @@ header {
 .banner-text-container .goat-effect {
     font-size: 5rem;
     font-weight: 700;
-    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
-.banner-text-container .bullet-points li{
+
+.banner-text-container .bullet-points li {
     list-style: none;
     font-size: 1.2rem;
     display: flex;
@@ -131,14 +142,17 @@ header {
     gap: 10px;
 
 }
-.banner-text-container .btn-container{
+
+.banner-text-container .btn-container {
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
-.banner-text-container .btn-container .go-rogue-btn{
+
+.banner-text-container .btn-container .go-rogue-btn {
     background: #4EC5F7;
 }
+
 .banner-img-container {
     width: 100%;
 }
@@ -149,12 +163,25 @@ header {
 }
 
 /* This is we are gamer section styles  */
+
 .we-gamer-section {
     max-width: 1140px;
     margin: 0 auto;
     display: flex;
     padding: 50px 0;
 
+}
+
+.gamer-text-container h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.gamer-text-container h2 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
 }
 
 .gamer-img-container {
@@ -173,6 +200,16 @@ header {
 .online-games-container {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+.online-games-container .title-subtitle-container {
+    text-align: center;
+}
+
+.online-games-container .title-subtitle-container h1 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
 }
 
 .card-container {
