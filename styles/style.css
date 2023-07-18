@@ -18,7 +18,7 @@ body {
 }
 
 .btn-primary {
-    padding: 21px 40px;
+    padding: 20px 30px;
     border-radius: 3rem;
     border: 0;
     color: #FFF;
@@ -26,7 +26,7 @@ body {
     font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
-    background-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
 }
 
 /* This is nav section styles  */
@@ -79,8 +79,7 @@ nav {
 .follow-us-box {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    display: flex;
-    gap: 10px;
+    display: inline-block;
 }
 
 .follow-us-box img {
@@ -124,7 +123,22 @@ header {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.banner-text-container .bullet-points li{
+    list-style: none;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
 
+}
+.banner-text-container .btn-container{
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.banner-text-container .btn-container .go-rogue-btn{
+    background: #4EC5F7;
+}
 .banner-img-container {
     width: 100%;
 }
