@@ -42,13 +42,14 @@ body {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-
+.sp-width{
+    max-width: 1140px;
+    margin: 0 auto;
+}
 /* This is nav section styles  */
 nav {
     display: flex;
     justify-content: space-between;
-    max-width: 1140px;
-    margin: 0 auto;
     padding: 20px 0;
 
 }
@@ -103,13 +104,6 @@ nav {
 .youtube-color {
     color: red;
 }
-
-/* This is header section styles  */
-header {
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
 /* This is banner section styles */
 
 .banner {
@@ -165,8 +159,6 @@ header {
 /* This is we are gamer section styles  */
 
 .we-gamer-section {
-    max-width: 1140px;
-    margin: 0 auto;
     display: flex;
     padding: 50px 0;
 
@@ -197,28 +189,34 @@ header {
 }
 
 /* This is online games styles  */
-.online-games-container {
-    max-width: 1140px;
-    margin: 0 auto;
-}
+.online-games-container{
 
+}
 .online-games-container .title-subtitle-container {
     text-align: center;
+    margin: 20px 0;
 }
 
 .online-games-container .title-subtitle-container h1 {
     color: #0B0223;
     font-size: 3rem;
     font-weight: 700;
-}
 
+}
 .card-container {
-    display: flex;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
 }
-
 .card-container .card img {
     width: 100%;
+}
+
+.card-container .card p {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+    
 }
 
 /* This is instant play styles  */
@@ -240,9 +238,6 @@ header {
 /* This is career section styles  */
 .career-section {
     display: flex;
-    max-width: 1140px;
-    margin: 0 auto;
-
 }
 
 .career-text-container {
