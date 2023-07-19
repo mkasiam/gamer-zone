@@ -241,9 +241,11 @@ nav {
     position: relative;
     top: 120px;
 }
-.card-body-content .watch-now{
+
+.card-body-content .watch-now {
     color: #FF42A5;
 }
+
 .card-body-content img {
     width: 50px;
     height: 50px;
@@ -311,7 +313,8 @@ nav {
 
 .anytime-play {
     display: flex;
-    padding: 50px 0;
+    padding: 70px 0;
+
 
 }
 
@@ -474,6 +477,7 @@ footer a {
     body {
         overflow-x: hidden;
     }
+
     nav,
     .menus,
     .we-gamer-section,
@@ -587,6 +591,11 @@ footer a {
 
     .instant-play {
         padding: 70px 0;
+    }
+
+    .instant-play .relative-img {
+        bottom: 132px;
+        left: 0px;
     }
 
     .instant-play-text-container {
