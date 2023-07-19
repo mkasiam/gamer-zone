@@ -526,12 +526,22 @@ footer a {
         grid-template-columns: repeat(2,1fr);
         padding: 0 50px;
     }
+    .instant-play{
+        padding: 70px 0;
+    }
     .instant-play-text-container{
         text-align: center;
         margin-bottom: 20px;
     }
+    .anytime-play{
+        padding: 80px 0;
+    }
     .anytime-left .lady-fighter{
         float: left;
+    }   
+    .any-time-relative-img {
+        bottom: 67px;
+        right: 45px;
     }
     .any-time-right{
         margin-bottom: 20px;
