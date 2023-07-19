@@ -308,21 +308,52 @@ nav {
 .career-img-container img{
     width: 100%;
 }
+/* This is game types section styles  */
+.game-types .card{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.game-types img{
+    width: 40px;
+}
+.first-line{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+}
+.second-line{
+    display:grid ;
+    grid-template-columns: repeat(4,1fr);
+    justify-items:center;
+}
 /* This is footer section styles  */
 footer{
-    max-width: 1000px;
+    background: #0B0223;
+    color: white;
+    padding: 40px 0;
+}
+.footer-main{
+    max-width: max-content;
     margin: 0 auto;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 footer li{
     list-style: none;
 }
 footer a{
     text-decoration: none;
-    color: #0B0223;
+    color: white;
 }
-.footer-main {
-    text-align: center;
+.social-media-container {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.social-media-container img{
+    width: 20px;
 }
 .footer-menus,.terms-condition-container {
     display: flex;
