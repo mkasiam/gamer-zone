@@ -10,7 +10,7 @@
     />
     <link rel="stylesheet" href="styles/style.css" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -18,23 +18,26 @@
     <title>Assignment-2</title>
   </head>
   <body>
-    <nav class="sp-width">
-      <div class="logo-text-container">
-        <img src="./images/Frame.png" alt="" />
-        <h1><span class="primary-color">G</span>amer</h1>
-      </div>
-      <div class="menus">
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Developers</a></li>
-        <li class="follow-us-box">
-          <a href="#">Follow us on
-            <img src="./images/Social-media-icons/youtube.svg" alt="">
-            <img src="./images/Social-media-icons/tik-tok 1.svg" alt="">
-          </a>
-        </li>
-      </div>
-    </nav>
     <header>
+      <!-- This is nav section  -->
+      <section class="nav-style">
+        <nav class="sp-width">
+          <div class="logo-text-container">
+            <img src="./images/Frame.png" alt="" />
+            <h1><span class="primary-color">G</span>amer</h1>
+          </div>
+          <div class="menus">
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Developers</a></li>
+            <li class="follow-us-box">
+              <a href="#">Follow us on
+                <img src="./images/Social-media-icons/youtube.svg" alt="">
+                <img src="./images/Social-media-icons/tik-tok 1.svg" alt="">
+              </a>
+            </li>
+          </div>
+        </nav>
+      </section>
       <!-- This is banner section  -->
       <section class="banner sp-width">
         <div class="banner-text-container">
@@ -86,18 +89,34 @@
         <div class="card-container">
                 <div class="card">
                     <img src="./images/Rectangle 4.png" alt="" />
+                    <div class="card-body">
+                      <img class="play-img" src="./images/Social-media-icons/play.svg" alt="">
+                      <p class="common-text-effect">Watch Now</p>
+                    </div>
                     <p>No Download. No Installs. Play games Instantly on Gamer.</p>
                 </div>
                 <div class="card">
                     <img src="./images/Rectangle 5.png" alt="" />
+                    <div class="card-body">
+                      <img class="play-img" src="./images/Social-media-icons/play.svg" alt="">
+                      <p class="common-text-effect">Watch Now</p>
+                    </div>
                     <p>Did you score? #unblockedgames #school</p>
                 </div>
                 <div class="card">
                     <img src="./images/Rectangle 7.png" alt="" />
+                    <div class="card-body">
+                      <img class="play-img" src="./images/Social-media-icons/play.svg" alt="">
+                      <p class="common-text-effect">Watch Now</p>
+                    </div>
                     <p>Breaking game records like OG</p>
                 </div>
                 <div class="card">
                     <img src="./images/Rectangle 6.png" alt="" />
+                    <div class="card-body">
+                      <img class="play-img" src="./images/Social-media-icons/play.svg" alt="">
+                      <p class="common-text-effect">Watch Now</p>
+                    </div>
                     <p>Busted gaming on school laptop, but you are still lit.</p>
                 </div>
         </div>
@@ -107,13 +126,14 @@
       <section class="instant-play sp-width">
         <div class="instant-play-text-container">
           <h1>
-            <span class="primary-color">Play Instantly</span> ,<br />
-            No Downloads<br />
+            <span class="primary-color ">Play Instantly,</span> <br/>
+            No Downloads<br/>
             No Installs.
           </h1>
           <p>
-            Play games online for free without downloading. Just click the Play
-            button and play instantly in your browser.
+            Play games online for free without<br> 
+            downloading.Just click the Play button <br> 
+            and play instantly in your browser.
           </p>
         </div>
         <div class="instant-play-img-container">
@@ -127,14 +147,14 @@
       </section>
       <!-- This is anytime playing section  -->
       <section class="anytime-play sp-width">
-        <div class="anytime-left">
-          <img src="./images/Rectangle 67.png" alt="">
-          <div class="any-time-ralative-img">
+        <div class="anytime-img-container">
+          <img class="lady-fighter" src="./images/Rectangle 67.png" alt="">
+          <div class="any-time-relative-img">
             <img src="./images/Rectangle 78.png" alt="">
           </div>
         </div>
         <div class="any-time-right">
-          <h1><span class="primary-color">Play Games Online</span> Anywhere,
+          <h1><span class="primary-color">Play Games<br> Online</span> Anywhere,
             Anytime!</h1>
             <p class="light-gray-text">PC. dad s phone, moms tablet, or your Chromebook,
               with Gamer you can play your favorite games online
@@ -147,7 +167,7 @@
         <div class="career-container sp-width">
           <div class="career-text-container">
             <h1>Careers</h1>
-            <p class="light-gray-text">
+            <p>
               Gamer is driven to create the best and most fun games for our
               millions of players all around the world, and we,re always on the
               lookout for more top talent to join our growing team. If you,d like
@@ -175,7 +195,7 @@
                  </div>
               </div>
             </div>
-            <button class="btn-primary">see all positions</button>
+            <button class="btn-primary position-btn">see all positions</button>
           </div>
           <div class="career-img-container">
               <img src="./images/Group 65.png" alt="">
@@ -185,7 +205,6 @@
       <!-- This is game types section  -->
       <section class="sp-width">
         <div class="game-types">
-          <div class="first-line">
             <div class="card">
               <img src="./images/Rectangle 11.png" alt="">
               <p>Action Games</p>
@@ -206,8 +225,6 @@
               <img src="./images/Rectangle 15.png" alt="">
               <p>Word Games</p>
             </div>
-          </div>
-          <div class="second-line">
             <div class="card">
               <img src="./images/Rectangle 16.png" alt="">
               <p>Role Palying Games</p>
@@ -224,7 +241,7 @@
               <img src="./images/Rectangle 19.png" alt="">
               <p>Strategy Games</p>
             </div>
-          </div>
+          
         </div>
       </section>
     </main>
@@ -261,7 +278,8 @@
           <li><a href="#">Privacy Policy</a></li>
         </div>
 
-        <p>Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</p>
+        <small class="copyright-text">Play Games @ Gamer @ 2000-2023 Gamer Bangladesh</small>
+        
       </section>
     </footer>
   </body>
