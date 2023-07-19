@@ -3,10 +3,6 @@
     padding: 0px;
 }
 
-:root {
-    --primary-color: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
-}
-
 body {
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
@@ -54,17 +50,17 @@ nav {
 
 }
 
-.img-logo-container {
+.logo-text-container {
     display: flex;
     gap: 20px;
 }
 
-.img-logo-container h1 {
+.logo-text-container h1 {
     font-size: 2.8rem;
     font-weight: 700;
 }
 
-.img-logo-container img {
+.logo-text-container img {
     width: 80px;
 }
 
@@ -189,6 +185,7 @@ nav {
 }
 
 /* This is online games styles  */
+
 .online-games-container{
 
 }
@@ -220,31 +217,115 @@ nav {
 }
 
 /* This is instant play styles  */
+
 .instant-play {
     display: flex;
+    justify-content: center;
+    padding: 50px 0;
 
 }
-
 .instant-play-text-container {
-    width: 40%;
+    width: 100%;
+    margin: auto;
 }
-
-.relative-img {
+.instant-play-img-container{
+    width: 100%;
     position: relative;
-    bottom: 80px;
-    right: 100px;
 }
-
-/* This is career section styles  */
-.career-section {
+.instant-play-img-container .horse-img{
+    width: 80%;
+    height: 60%;
+    float: right;
+}
+.relative-img {
+    position: absolute;
+    bottom: -30px;
+    left: 20px;
+    z-index: 1;
+}
+.relative-img img{
+    width: 60%;
+    height: 50%;
+    object-fit: cover;
+}
+/* This is anytime play section styles  */
+.anytime-play{
     display: flex;
+    padding: 50px 0;
+
+}
+.anytime-left{
+    width: 100%;
+    position: relative;
+}
+.anytime-left img{
+    width: 80%;
+
+}
+.any-time-ralative-img{
+    position: absolute;
+    bottom: -30px;
+    right: -60px;
+    object-fit: cover;
+}
+.any-time-ralative-img img{
+    width: 60%;
+    height: 50%;
+}
+.any-time-right{
+    width: 100%;
+    margin: auto;
+}
+/* This is career section styles  */
+.career-section{
+    background-color: #F948B2;
+}
+.career-container {
+    display: flex;
+    
 }
 
 .career-text-container {
-    width: 50%;
+    width: 100%;
 }
-
+.career-text-container .two-sides{
+    display: flex;
+    justify-content: space-between;
+}
+.career-text-container .two-sides li{
+    list-style: none;
+    margin: 15px 0;
+}
+.career-text-container .two-sides .left-side{
+    width: max-content;
+}
+.career-text-container .two-sides .right-side{
+    text-align: right;
+}
+.career-img-container{
+    width: 100%;
+}
+.career-img-container img{
+    width: 100%;
+}
 /* This is footer section styles  */
+footer{
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+footer li{
+    list-style: none;
+}
+footer a{
+    text-decoration: none;
+    color: #0B0223;
+}
 .footer-main {
     text-align: center;
+}
+.footer-menus,.terms-condition-container {
+    display: flex;
+    justify-items: center;
+    gap: 10px;
 }
