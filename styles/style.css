@@ -7,12 +7,15 @@ body {
     font-family: 'Inter', sans-serif;
     font-family: 'Montserrat', sans-serif;
 }
+
 h1 {
     font-size: 3rem;
 }
+
 p {
     font-size: 1.2rem;
 }
+
 /* This is shared styles  */
 .primary-color {
     color: #FF42A5;
@@ -47,6 +50,7 @@ p {
     max-width: 1140px;
     margin: 0 auto;
 }
+
 /* Logo and text common styles  */
 
 .logo-text-container {
@@ -54,6 +58,7 @@ p {
     gap: 10px;
     cursor: pointer;
 }
+
 .logo-text-container h1 {
     font-size: 2.5rem;
 }
@@ -66,16 +71,19 @@ p {
 nav {
     display: flex;
     justify-content: space-between;
-    padding: 20px 0;   
+    padding: 20px 0;
 }
-.nav-style{
+
+.nav-style {
     box-shadow: 0px 0px 30px 0 rgba(11, 2, 35, 0.10);
 }
+
 .menus {
     display: flex;
     align-items: center;
     text-align: center;
 }
+
 .menus li {
     list-style: none;
     padding: 10px;
@@ -83,20 +91,24 @@ nav {
     display: flex;
     align-items: center;
 }
+
 .menus a {
     text-decoration: none;
     color: #3C354F;
     font-size: 1.5rem;
     font-weight: 600;
 }
+
 .follow-us-box {
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     display: inline-block;
 }
+
 .follow-us-box img {
     width: 25px;
 }
+
 /* This is banner section styles */
 
 .banner {
@@ -114,10 +126,12 @@ nav {
     font-weight: 600;
     text-transform: uppercase;
 }
+
 .banner-text-container .goat-effect {
     font-size: 5rem;
     font-weight: 700;
 }
+
 .banner-text-container .bullet-points li {
     list-style: none;
     font-size: 1.2rem;
@@ -125,14 +139,17 @@ nav {
     align-items: center;
     gap: 10px;
 }
+
 .banner-text-container .btn-container {
     margin-top: 20px;
     display: flex;
     gap: 20px;
 }
+
 .banner-text-container .btn-container .go-rogue-btn {
     background: #4EC5F7;
 }
+
 .banner-img-container {
     width: 100%;
 }
@@ -149,22 +166,27 @@ nav {
     padding: 80px 0;
 
 }
+
 .gamer-text-container h1 {
     font-size: 3rem;
     font-weight: 700;
     margin-bottom: 5px;
 }
+
 .gamer-text-container h2 {
     color: #534C64;
     font-size: 2rem;
     font-weight: 700;
 }
+
 .gamer-img-container {
     width: 100%;
 }
+
 .gamer-img-container img {
     width: 100%;
 }
+
 .gamer-text-container {
     text-align: right;
 }
@@ -175,23 +197,28 @@ nav {
     text-align: center;
     margin: 20px 0;
 }
+
 .online-games-container .title-subtitle-container h1 {
     color: #0B0223;
     font-weight: 700;
 }
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
 }
-.card-img-container img{
+
+.card-img-container img {
     width: 100%;
     border-radius: 10px;
 }
-.card-img-container{
+
+.card-img-container {
     position: relative;
 }
-.card-container .card .card-body{
+
+.card-container .card .card-body {
     width: 99%;
     height: 97%;
     top: 0px;
@@ -207,18 +234,22 @@ nav {
     opacity: 0;
     transition: 1.5s ease-in;
 }
-.online-games-container .card-container .card-img-container:hover .card-body{
+
+.online-games-container .card-container .card-img-container:hover .card-body {
     opacity: 1;
 }
-.card-body-content{
+
+.card-body-content {
     margin: auto;
     position: relative;
     top: 120px;
 }
-.card-body-content img{
+
+.card-body-content img {
     width: 50px;
     height: 50px;
 }
+
 .card-container .card img {
     width: 100%;
 }
@@ -268,6 +299,8 @@ nav {
     bottom: -45px;
     left: 15px;
     width: 40%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
 }
 
 .relative-img img {
@@ -293,12 +326,14 @@ nav {
     float: left;
 }
 
-.any-time-relative-img{
+.any-time-relative-img {
     position: absolute;
     bottom: -45px;
-    right:30px;
+    right: 30px;
     object-fit: cover;
     width: 40%;
+    border-radius: 5px;
+    border: 1px solid gainsboro;
 }
 
 .any-time-relative-img img {
@@ -322,6 +357,7 @@ nav {
     display: flex;
 
 }
+
 .career-text-container {
     width: 95%;
     padding: 10px;
@@ -334,20 +370,21 @@ nav {
 .career-text-container .two-sides {
     display: flex;
     justify-content: space-between;
-    
+
 }
 
 .career-text-container .two-sides li {
     list-style: none;
     margin: 15px 0;
 }
+
 .career-text-container .two-sides .right-side {
     text-align: right;
 }
 
 .career-text-container .position-btn {
     border-radius: 30px;
-    background:#FFF;
+    background: #FFF;
     color: #FF42A5;
 }
 
@@ -361,10 +398,10 @@ nav {
 
 /* This is game types section styles  */
 
-.game-types{
+.game-types {
     padding: 40px 0;
     display: grid;
-    grid-template-columns: repeat(5,1fr);
+    grid-template-columns: repeat(5, 1fr);
 }
 
 .game-types .card {
@@ -373,11 +410,12 @@ nav {
     gap: 5px;
 }
 
-.game-types .card:hover{
+.game-types .card:hover {
     border-radius: 30px;
     border: 1px solid #FF42A5;
-    color:#FF42A5 ; 
+    color: #FF42A5;
 }
+
 .game-types img {
     width: 35px;
 }
@@ -393,18 +431,20 @@ footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgba(255, 255, 255, 0.60);   
+    color: rgba(255, 255, 255, 0.60);
     gap: 20px;
 }
-.footer-main .logo-text-container h1{
+
+.footer-main .logo-text-container h1 {
     color: #FFF;
 }
+
 footer li {
-    list-style: none; 
+    list-style: none;
 }
 
 footer a {
-    text-decoration: none; 
+    text-decoration: none;
     color: rgba(255, 255, 255, 0.60);
     font-size: 0.8rem;
 }
@@ -426,151 +466,187 @@ footer a {
     justify-items: center;
     gap: 10px;
 }
+
 /* Media query for responsive */
 
 /* media query for small devices  */
 
 @media screen and (max-width:576px) {
-    body{
+    body {
         overflow-x: hidden;
     }
+
     nav,
     .menus,
     .we-gamer-section,
     .instant-play,
-    .career-container{
+    .career-container {
         flex-direction: column;
     }
-    
+
     .banner,
-    .anytime-play{
+    .anytime-play {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .banner-text-container{
+
+    .banner-text-container {
         align-items: center;
     }
-    .logo-text-container{
+
+    .logo-text-container {
         margin: 0 auto;
     }
-    .online-games-container .card-container{
+
+    .online-games-container .card-container {
         grid-template-columns: 1fr;
         padding: 0 50px;
     }
-    .instant-play-text-container{
+
+    .instant-play-text-container {
         text-align: center;
         margin-bottom: 20px;
     }
-    .anytime-left .lady-fighter{
+
+    .anytime-left .lady-fighter {
         float: left;
     }
-    .any-time-right{
+
+    .any-time-right {
         margin-bottom: 20px;
-    } 
-    .game-types{
+    }
+
+    .game-types {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0;
     }
-    .game-types P{
+
+    .game-types P {
         font-size: .8rem;
     }
+
     .gamer-text-container {
         text-align: center;
-    }   
-    .footer-menus{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
     }
-    .social-media-container{
+
+    .footer-menus {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .terms-condition-container{
+
+    .social-media-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .copyright-text{
+
+    .terms-condition-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright-text {
         text-align: center;
     }
-    
-    
+
+
 }
+
 /* Media query for tablet */
 
 @media screen and (min-width:576px) and (max-width:992px) {
-    body{
+    body {
         padding: 0 10px;
         overflow-x: hidden;
     }
+
     nav,
     .menus,
     .we-gamer-section,
-    .career-container{
+    .career-container {
         flex-direction: column;
     }
-    .sp-width{
+
+    .sp-width {
         padding: 0 30px;
     }
-    .banner{
+
+    .banner {
         flex-direction: column-reverse;
         text-align: center;
     }
-    .banner-text-container{
+
+    .banner-text-container {
         align-items: center;
     }
-    .logo-text-container{
+
+    .logo-text-container {
         margin: 0 auto;
     }
-    .online-games-container .card-container{
-        grid-template-columns: repeat(2,1fr);
+
+    .online-games-container .card-container {
+        grid-template-columns: repeat(2, 1fr);
         padding: 0 50px;
     }
-    .instant-play{
+
+    .instant-play {
         padding: 70px 0;
     }
-    .instant-play-text-container{
+
+    .instant-play-text-container {
         text-align: center;
         margin-bottom: 20px;
     }
-    .anytime-play{
+
+    .anytime-play {
         padding: 80px 0;
     }
-    .anytime-left .lady-fighter{
+
+    .anytime-left .lady-fighter {
         float: left;
-    }   
+    }
+
     .any-time-relative-img {
         bottom: 67px;
         right: 45px;
+
     }
-    .any-time-right{
+
+    .any-time-right {
         margin-bottom: 20px;
-    } 
-    .game-types{
+    }
+
+    .game-types {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 0;
     }
-    .game-types P{
+
+    .game-types P {
         font-size: .8rem;
     }
+
     .gamer-text-container {
         text-align: center;
-    }   
-    .footer-menus{
-        display: grid;
-        grid-template-columns: repeat(3,1fr);
     }
-    .social-media-container{
+
+    .footer-menus {
         display: grid;
-        grid-template-columns: repeat(3,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .terms-condition-container{
+
+    .social-media-container {
         display: grid;
-        grid-template-columns: repeat(2,1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
-    .copyright-text{
+
+    .terms-condition-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .copyright-text {
         text-align: center;
     }
-    
-}    
+
+}
